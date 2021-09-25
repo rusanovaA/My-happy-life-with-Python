@@ -7,7 +7,7 @@ while True:
     print("Enter sequence")
     sequence = input()
     sequence = list(sequence)
-    
+# так и не придумала, как проверить правильность букв. Красиво не получается :(    
     true_nucl = ['A', 'T', 'G', 'C', 'a', 't', 'g', 'c']
     for nucl in sequence:
         if nucl not in true_nucl:
